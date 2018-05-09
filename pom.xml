@@ -1,0 +1,65 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.ablx</groupId>
+	<artifactId>unbleed</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>Unbleed</name>
+
+	<description>Unbleed parent pom</description>
+
+	<modules>
+		<module>unbleed-backend</module>
+		<module>unbleed-tracker</module>
+	</modules>
+
+	<properties>
+		<kotlin.compiler.incremental>false</kotlin.compiler.incremental>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<java.version>1.8</java.version>
+
+		<!-- Version des librairies -->
+		<logback.version>1.1.3</logback.version>
+		<slf4j.version>1.7.5</slf4j.version>
+		<dozer.version>5.5.1</dozer.version>
+		<junit.version>4.11</junit.version>
+		<log4j.version>1.2.17</log4j.version>
+		<spring.version>4.1.8.RELEASE</spring.version>
+		<postgres-jdbc.version>9.4-1206-jdbc42</postgres-jdbc.version>
+		<!-- Version des plugin Maven -->
+		<resources-plugin.version>2.6</resources-plugin.version><!-- 2.6 -->
+		<compiler-plugin.version>3.1</compiler-plugin.version><!-- 3.1 -->
+		<site-plugin.version>3.3</site-plugin.version><!-- 3.3 -->
+		<clean-plugin.version>2.5</clean-plugin.version><!-- 2.5 -->
+		<deploy-plugin.version>2.8.1</deploy-plugin.version><!-- 2.8.1 -->
+		<install-plugin.version>2.5.1</install-plugin.version><!-- 2.5.1 -->
+		<project-info-reports-plugin.version>2.7</project-info-reports-plugin.version><!-- 
+			2.7 -->
+		<javadoc-plugin.version>2.10.1</javadoc-plugin.version><!-- 2.9.1 -->
+		<checkstyle-plugin.version>2.12</checkstyle-plugin.version><!-- 2.12 -->
+		<jxr-plugin.version>2.3</jxr-plugin.version>
+		<pmd-plugin.version>3.1</pmd-plugin.version><!-- 3.1 -->
+		<surefire-plugin.version>2.17</surefire-plugin.version><!-- 2.17 -->
+		<wagon-webdav-jackrabbit.version>2.2</wagon-webdav-jackrabbit.version>
+		<!-- Version des plugin CodehausMaven -->
+		<taglist-plugin.version>2.4</taglist-plugin.version>
+		<cobertura-plugin.version>2.6</cobertura-plugin.version><!-- 2.6 -->
+
+		<tycho-version>1.1.0</tycho-version>
+		<tycho-groupid>org.eclipse.tycho</tycho-groupid>
+
+		<project.build.generateJNLP>false</project.build.generateJNLP>
+		<project.build.javaVersion>1.8</project.build.javaVersion>
+		<project.build.vendor>XbInstruments</project.build.vendor>
+
+		<cbi-jdt-repo.url>
+			https://repo.eclipse.org/content/repositories/eclipse/
+		</cbi-jdt-repo.url>
+	</properties>
+	<organization>
+		<name>Ablx</name>
+	</organization>
+</project>
+

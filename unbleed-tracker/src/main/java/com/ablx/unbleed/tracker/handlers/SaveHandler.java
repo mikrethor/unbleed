@@ -16,6 +16,7 @@ public class SaveHandler {
 
 	@Execute
 	public void execute(EPartService partService) {
+
 		partService.saveAll(false);
 	}
 }
