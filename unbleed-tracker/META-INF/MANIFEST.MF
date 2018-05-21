@@ -24,4 +24,5 @@ Bundle-ClassPath: lib/jackson-core-2.9.5.jar,
  lib/jersey-client-1.19.4.jar,
  lib/jsr311-api-1.1.1.jar,
  lib/jersey-core-1.19.4.jar,
- lib/jersey-json-1.19.4.jar
+ lib/jersey-json-1.19.4.jar,
+ lib/jackson-annotations-2.9.5.jar
